@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background: #434343;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* IMG and Nav Menu */
+.left-container {
+    width: 50%;
+    height: 100vh;
+    background-color: #EBFCF4;
+    
+    position: relative;
+}
+
+.left-container img {
+    position: absolute;
+    width: 313px;
+    height: 274px;
+    top: 40%;
+    left: 20%;
+}
+
+/* Menu */
+
+.menu {
+    position: absolute;
+    list-style: none;
+    top: 5%;
+    left: 10%;
+    font-family: 'Athiti', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #0B4654;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 43.7px;
+}
+/* Form */
+.right-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    background: #FFFFFF;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container input {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #0B465440;
+    border: none;
+}
+.form-title {
+    color: #0B4654;
+    font-family: 'Athiti';
+    font-weight: 600;
+    font-size: 29px;
+}
+/* right logo */
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    top: 10px;
+    margin: 5px 10px;
+}
+
+.logo-title {
+    font-family: Athiti;
+    font-size: 35px;
+    font-weight: 600;
+    margin-left: 18px;
+
+}
+
+.buttons-login {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons-login button {
+    margin: 10px;
+    padding: 10px;
+    width: 330px;
+    border-radius: 11px;
+    border: none;
+}
+
+.sign-up {
+    background-color: #07B464;
+    color: white;
+}
+
+.sign-up-with {
+    color: #00000080;
+    font-family: 'Athiti';
+    font-weight: 400;
+    font-size: 11.8264px;
+}
+
+
