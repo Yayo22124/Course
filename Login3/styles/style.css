@@ -1,0 +1,172 @@
+/* --------- General Styles --------- */
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+/* --------- Main --------- */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --------- Left Login Styles --------- */
+.left-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100vh;
+
+}
+
+    /* --------- Login Image --------- */
+    
+/* --------- Right Login styles --------- */
+    .right-container {
+        width: 50%;
+        height: 100vh;
+        
+    }
+    /* --------- Right Top Elements --------- */
+    .top-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+    }
+    
+    .top-container img {
+        width: 28px;
+        cursor: pointer;
+    }
+    
+    .top-container img:hover {
+        width: 34px;
+    }
+    
+    .sign-in {
+        margin-left: 300px;
+        color: #23222D;
+        font-family: 'Lato';
+        font-size: 20px;
+        font-weight: 400;
+    }
+    
+    .sign-in b {
+        color: #009DDC;
+        cursor: pointer;
+    }    
+    
+    /* --------- Login Title --------- */
+.login-title {
+    color: #242331;
+    margin: 58px auto;
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 48px;
+    max-width: 440px;
+    
+}
+
+.login-title b {
+    color: #009DDC;
+}
+
+    /* --------- Login Form --------- */
+.form-container {
+    display: flex;
+    margin: 40px auto;
+    width: 440px;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.form-container input {
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid #C5C5C5;
+    margin-top: 24px;
+    color: #C5C5C5;
+}
+
+.form-container input:focus {
+    outline: none;
+    border: 2px solid #009DDC;
+}
+
+.form-container label {
+    color: #23222D;
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 14px;
+}
+
+    /* --------- Login Line --------- */
+.login-line {
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 440px;
+}
+
+.login-line hr {
+    width: 40%;
+    border-color: #C5C5C5;
+}
+
+.login-line p {
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 14px;
+    color: #A6A0A0;
+}
+
+    /* --------- Login Buttons --------- */
+
+.login-buttons {
+    width: 440px;
+    margin: 40px auto;
+}
+
+.login-buttons button {
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.login-buttons button:hover {
+    font-size: 18px;
+}
+
+.create-account {
+    border: none;
+    background-color: #009DDC;
+    color: #FEFFFE;
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.continue-with {
+    position: relative;
+    background-color: #fff;
+    color:  #23222D;
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 16px;
+    border: 1px solid #C5C5C5;
+}
+
+.google-logo {
+    position: absolute;
+    left: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+}
+
+/* ################## RESPONSIVE STYLES ################## */
