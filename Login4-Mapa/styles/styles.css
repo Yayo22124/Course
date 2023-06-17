@@ -1,0 +1,217 @@
+/* ----------- General Styles ----------- */
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+/* Main Container */
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+/* Form Container (Left Container) */
+.form-container {
+    width: 50%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+        /* Form header */
+.header {
+    max-width: 545px;
+    margin: 61px auto;
+}
+
+.header h1 {
+    width: 545px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 46px;
+    color: #000000;
+
+    margin-bottom: 23px;
+}
+
+.header h1 > span {
+    color:  #6DE1C2;
+}
+
+.header > span {
+    width: 545px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+        /* Form Styles */
+form {
+    max-width: 548px;
+    height: 100vh;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+.form-group > input {
+    display: block;
+    width: 100%;
+    padding-left: 16px;
+    padding-bottom: 12px;
+    margin-bottom: 25px;
+    border: none;
+    border-bottom: 1px solid gray;
+  }
+.form-group textarea {
+    display: block;
+    width: 100%;
+    padding: 11px 0px;
+    border: none;
+    border-bottom: 1px solid gray;
+    /* fonts */
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+.inline-group {
+  display: flex;
+  align-items: center;
+}
+.inline-group input {
+  display: block;
+  padding-left: 16px;
+  padding-bottom: 12px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+.form-group input:focus {
+  outline: none;
+  border: 2px solid #009DDC;
+  border-radius: 8px;
+}
+.city-form {
+    width: 75%;
+}
+.postcode-form {
+    width: 25%;
+    margin-left: 24px;
+    margin-right: 0;
+}
+  /* Drop Zone */
+.drop-zone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 41px 0px;
+  margin-bottom: 7px;
+  border: 1px dashed #8E8E8E;
+}
+.drop-zone span {
+  margin-left: 27px;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 14px;
+  color: #8E8E8E;
+}
+.span-drop-zone > p{
+  font-family: 'Inter';
+  font-size: 13px;
+  font-weight: 400;
+  color: #8E8E8E;
+  margin-bottom: 32px;
+  width: 100%;
+}
+
+.drop-zone:hover {
+  cursor: pointer;
+}
+
+/* Checkbox Control Styles */
+.checkbox-control {
+  margin-bottom: 20px;
+}
+.checkbox-control span {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 14px;
+  color: #383C3E;
+}
+
+.checkbox-control input {
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #383C3E;
+}
+
+/* Submit button styles */
+.submit-button {
+  padding: 16px ;
+  color: #FFFFFF;
+  background-color: #0982FE;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+
+  cursor: pointer;
+}
+
+.submit-button span { 
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 14px;
+}
+
+/* Contact Styles */
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 548px;
+}
+
+
+
+.contact-control {
+  display: flex;
+  align-items: center;
+}
+
+
+.contact-text {
+  margin-left: 16px;
+}
+
+.contact-text span {
+  font-family: 'Montserrat';
+  font-size: 13px;
+  font-weight: 600;
+
+
+}
+
+.contact-control span strong {
+  font-family: 'Montserrat';
+  font-size: 13px;
+  font-weight: 400;
+  color:  #DD5471;
+}
+/* IMG Container */
+.map-container {
+  width: 50%;
+}
+.map-container img {
+  width: 100%;
+  height: 100vh;
+}
